@@ -54,7 +54,7 @@ const CreateAccount = () => {
             });
 
             // Navigate to a confirmation page
-            navigate('/thanks');
+            navigate('/login');
         } catch (error) {
             console.error("Error adding user:", error);
             alert(error.message || "Failed to add user. Please try again.");
